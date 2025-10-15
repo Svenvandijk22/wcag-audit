@@ -1,18 +1,12 @@
 # WCAG Audit 
 
-Doe een WCAG audit op een bestaande website uit je eigen omgeving en rapporteer daarover.
+De toegankelijkheidsaudit laat zien dat de website grotendeels goed is opgebouwd, maar dat er nog verbeterpunten zijn.
 
-De instructies van deze opdracht staan in [INSTRUCTIONS](https://github.com/fdnd-task/wcag-audit/blob/main/docs/INSTRUCTIONS.md).
+De **ARIA-kenmerken** worden correct gebruikt; **aria-hidden="true"** wordt goed toegepast op decoratieve elementen. Ook zijn de **viewport**, het **title-element** en het **lang-kenmerk** juist ingesteld, wat de toegankelijkheid voor schermlezers verbetert.
 
+Er zijn echter enkele tekortkomingen. Sommige **afbeeldingen missen beschrijvende alt-teksten**, **knoppen** hebben geen toegankelijke naam en de **contrastverhouding** tussen tekst en achtergrond is soms te laag. Daarnaast ontbreekt bij een **iframe** een duidelijke titel, en hebben sommige **formuliervelden** geen gekoppelde labels. Ook de **kopstructuur** is niet altijd logisch opgebouwd.
 
-## Titel Website
+Uit handmatige tests blijkt verder dat de **zoekbalk niet bereikbaar is via de Tab-toets** en dat sommige alt-teksten te algemeen zijn.
 
-Welke website heb je getest? Beschrijf de website en voeg een screenshot toe.
+Over het algemeen is de website toegankelijk, maar kan deze nog worden verbeterd met beschrijvende teksten, betere contrasten en verbeterde toetsenbordnavigatie.
 
-Toon een screenshot van het Lighthouse Accessibility testresultaat.
-
-Schrijf een samenvatting van de testbevindingen, en link naar je Wiki voor de volledige documentatie.
-
-## Licentie
-
-This project is licensed under the terms of the [MIT license](./LICENSE).
